@@ -10,7 +10,7 @@ if ok:
 
     mensaje_cifrado = cifrar_mensaje(mensaje, 3)
 
-    archivo_cifrazo = "mensaje_cifrazo.txt"
+    archivo_cifrazo = "mensaje_cifrado.txt"
     escribir_archivo(archivo_cifrazo, mensaje_cifrado)
 
     print(f"Mensaje cifrado en archivo {archivo_cifrazo}")
