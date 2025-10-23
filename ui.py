@@ -9,7 +9,7 @@ ARCHIVO_CIFRADO = "mensaje_cifrado.txt"
 ARCHIVO_RESUELTO = "mensaje_descifrado.txt"
 
 if ok:
-    mensaje_cifrado = cifrar_mensaje(mensaje, 3)
+    mensaje_cifrado = cifrar_mensaje(mensaje, 5)
 
 
     if (escribir_archivo(ARCHIVO_CIFRADO, mensaje_cifrado)):

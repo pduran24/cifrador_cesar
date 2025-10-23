@@ -6,7 +6,7 @@ Este proyecto es una implementación sencilla del Cifrado César en Python, dise
 
 * Soporte para español: El algoritmo maneja correctamente el alfabeto español, incluyendo la letra ñ.
 
-* Descifrado por Fuerza Bruta: Lee un archivo cifrado y genera todas las 26 posibles soluciones para que el usuario pueda identificar el mensaje original.
+* Descifrado por Fuerza Bruta: Lee un archivo cifrado y genera la opción más acorde basándose en una lista enorme de palabras en castellano.
 
 * Salida a archivo: Guarda el mensaje cifrado y los resultados del descifrado en archivos de texto.
 
