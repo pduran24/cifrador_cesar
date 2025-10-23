@@ -3,7 +3,7 @@
 
 def leer_archivo(archivo):
     try:
-        with open(archivo, 'r') as f:
+        with open(archivo, 'r', encoding='utf-8') as f:
             mensaje_original = f.read()
         return True, mensaje_original
 
