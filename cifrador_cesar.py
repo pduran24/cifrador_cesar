@@ -8,7 +8,7 @@ def cifrar_mensaje(texto, desplazamiento):
 
     for caracter in texto:
 
-        # se comprueba si es un aletra
+        # se comprueba si es una letra
         if caracter in ALFABETO_MIN:
             indice_actual = ALFABETO_MIN.find(caracter)
             nuevo_indice = (indice_actual + desplazamiento) % len(ALFABETO_MIN)
