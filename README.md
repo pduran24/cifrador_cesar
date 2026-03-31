@@ -11,3 +11,4 @@ Este proyecto es una implementación sencilla del Cifrado César en Python, dise
 * Salida a archivo: Guarda el mensaje cifrado y los resultados del descifrado en archivos de texto.
 
 * Arquitectura Modular: El código está organizado en módulos con responsabilidades únicas (lectura, escritura, lógica de cifrado, etc.).
+
